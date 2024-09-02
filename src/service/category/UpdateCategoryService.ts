@@ -6,7 +6,10 @@ class UpdateCategoryService{
         if(!name){
             throw new Error("Essa categoria nao existe")
         }
-        return { message: "Registro incluído com sucesso" }
+        var vcategory ={
+            name: name, description: description
+        }
+        return {message: "Registro editado com sucesso"}
     }
 }
 export {UpdateCategoryService}

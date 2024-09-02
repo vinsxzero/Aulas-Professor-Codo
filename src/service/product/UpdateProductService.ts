@@ -13,8 +13,10 @@ class UpdateProductRequest{
         if (!categoryId){
             throw new Error("Não foi possível cadastrar")
         }
-        return {message:"Registro incluído com sucesso"}
+        var vproduct = {
+            name:name, description:description, price:price, categoryId:categoryId
+        }
+        return {message: "Registro editado com sucesso"}
     }
 }
 export {UpdateProductRequest}
-    

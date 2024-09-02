@@ -1,5 +1,5 @@
 import { IClientRequest } from "../../interface/IClientRequest";
-import { hash } from "bcryptjs";
+
 
 class UpdateClientRequest{
     async execute({name, email, cpf, address, phone}:IClientRequest){
@@ -18,7 +18,7 @@ class UpdateClientRequest{
         var vclient = {
             name: name, email: email, cpf: cpf, address: address, phone: phone
         }
-        return{message:"Registro incluído com sucesso"}
+        return {message: "Registro editado com sucesso"}
     }
 }
 export {UpdateClientRequest}
