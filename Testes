@@ -1,0 +1,69 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Testes",
+    "collectionId": "f2906cf1-b1fb-4596-87b5-d0023f5640f3",
+    "dateExported": "2024-08-23T23:42:06.917Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "937df504-7d38-4093-b03b-a787e1e50f3a",
+            "colId": "f2906cf1-b1fb-4596-87b5-d0023f5640f3",
+            "containerId": "",
+            "name": "https://localhost:3000/categories/2",
+            "url": "http://localhost:3000/categories/2",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-08-23T23:40:50.106Z",
+            "modified": "2024-08-23T23:40:50.106Z",
+            "headers": []
+        },
+        {
+            "_id": "2ce16f97-b1fe-47b7-a061-a930b6bd4c2f",
+            "colId": "f2906cf1-b1fb-4596-87b5-d0023f5640f3",
+            "containerId": "",
+            "name": "http://localhost:3000/categories",
+            "url": "http://localhost:3000/categories",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-08-23T23:40:59.149Z",
+            "modified": "2024-08-23T23:40:59.150Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"S\",\n  \"description\": \"e\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "18b7c791-7f03-4c7e-a12f-6477c0095aea",
+            "colId": "f2906cf1-b1fb-4596-87b5-d0023f5640f3",
+            "containerId": "",
+            "name": "edit",
+            "url": "http://localhost:3000/categories/2",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-08-23T23:41:04.198Z",
+            "modified": "2024-08-23T23:41:04.198Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Fabio\",\n  \"description\": \"AAAAAAA\"\n\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "702a8671-2b10-48c6-96ba-d53c2783ecd2",
+            "colId": "f2906cf1-b1fb-4596-87b5-d0023f5640f3",
+            "containerId": "",
+            "name": "list name",
+            "url": "http://localhost:3000/categories",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-08-23T23:41:11.037Z",
+            "modified": "2024-08-23T23:41:11.037Z",
+            "headers": []
+        }
+    ],
+    "ref": "GC8rsIeYCOy5hJibXX55Ybaxz-ZhnwxWPcD1P8z708qj6QJhB7fgskVdGZTmT4gmT47ne3svbo3sJK0oOps3AA"
+}
