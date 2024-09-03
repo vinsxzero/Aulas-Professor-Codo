@@ -8,7 +8,8 @@ class UpdateUserService{
         if(!password){
             throw new Error("Senha incorreta")
         }
-        return { message: "Registro incluído com sucesso" }
+        var vuser
+        return { message: "Registro editado com sucesso" }
     }
 }
 export{UpdateUserService}
